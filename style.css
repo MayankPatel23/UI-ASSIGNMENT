@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.card{
+    max-height: 100%;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+}
+
+.jumbotron {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.jumbotron .btn {
+    margin-top: 1rem;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 2rem 0;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+/* .right-side-nav{
+    align-items: flex-end;
+    float: right;
+} */
+.right-side-nav {
+    margin-left: auto;
+}
+
+.containersearch {
+    display: flex;
+    align-items: center;
+    margin-right: auto;
+}
+
+#searchInput {
+    width: 300px;
+    border: 1px solid #ced4da;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+    margin-right: 10px;
+}
+
+#submitsearch {
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    padding: 0.375rem 0.75rem;
+    border-radius: 0.25rem;
+}
+
+#submitsearch:hover {
+    background-color: #218838;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navbar-nav .nav-link {
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.navbar-nav .nav-pad{
+    padding-right: 52px;
+}
+.text-prop{
+    font-weight: 800;
+    color: #343a40!important;
+}
+.products, .category-highlights {
+    padding: 20px 20px;
+}
+
+.product-list {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+}
+
+.product {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: 200px;
+}
+
+.product-image {
+    background-color: #eee;
+    height: 150px;
+}
+
+.product-info {
+    padding: 10px 0;
+}
+
+.product-info .price {
+    font-weight: bold;
+    color: #333;
+}
+
+.product-info .old-price {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.product-info .discount {
+    color: red;
+}
